@@ -1,4 +1,5 @@
 const mysql = require("mysql2");
+const chalk = require("chalk");
 const db = mysql.createConnection({
   host: "localhost",
   // username,
